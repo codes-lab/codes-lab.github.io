@@ -902,7 +902,7 @@ $(function() {
  /*if($.trim($("#fancytext").val())!='') { 
     generateFancy($("#fancytext").val());
   } else {
-   generateFancy("Preview Text");
+   generateFancy("Font Changer");
   }*/
   
 $(".fancytext").keyup(function() { 
@@ -910,7 +910,7 @@ $(".fancytext").keyup(function() {
    if($.trim($(this).val())!='') { 
    generateFancy($(this).val());
    } else {
-   generateFancy("Preview Text");
+   generateFancy("Font Changer");
    }
  });
 var ct = 89;
@@ -938,7 +938,7 @@ function generateFancy(txt) {
    $(this).html('Loading...');
     var text = $.trim($(".fancytext").val());
    if(text=='') {
-     text = 'Preview Text';
+     text = 'Font Changer';
    } 
    var that = $(this);
    var intvl = setInterval(function(){  that.html('Load More');clearInterval(intvl); }, 1000);
