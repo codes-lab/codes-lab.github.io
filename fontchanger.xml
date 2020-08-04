@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:version='2' class='ltr' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>  
+<head>    
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+    <meta content='IE=EmulateIE7' http-equiv='X-UA-Compatible'/>
+    <title>
+    <b:if cond='data:blog.pageType == &quot;index&quot;'>
+    <data:blog.pageTitle/>
+    <b:else/>
+    <b:if cond='data:blog.pageType != &quot;error_page&quot;'>
+    <data:blog.pageName/>
+    <b:else/>
+    <data:blog.title/>
+    </b:if>
+    </b:if>
+    </title>
+    <b:include data='blog' name='all-head-content'/>  
+    <b:skin><![CDATA[
+      
+         body {
+     margin: 0;
+    }  
+    .header {
+	background: #5352ed;
+}
+.site-text {
+    padding-top: 5px;
+    text-align: center;
+}
+.site-title a {
+	text-align: center;
+	font-size: 34px;
+	color: #fff;
+}
+    p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+    .fc-text{
+  padding: 20px 0;
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+  background: #5352ed;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, .21);
+}
+
+    textarea {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    width:90%;
+    height:50px;
+    margin-top:5px;
+    background-color:#fff;
+    color:#333;
+}   
+    .fc-result{
+      max-width: 1200px;
+	margin: 0 auto;
+    }
+   .fc-row {
+    margin: 0;
+    display: flex;
+    float: left;
+    width: 98%;
+    margin: 0 -5px;
+    padding: 5px;
+} 
+    .fc-row input {
+    padding: 10px;
+    font-size: 20px;
+    white-space: nowrap;
+    width: 80%;
+    float: left;
+    text-align: center;
+    background: #fff;
+    cursor: pointer;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 3px;
+    margin: 0 10px;
+}
+    input:hover {
+	color: #5352ed;
+	border-color: #5352ed;
+	text-shadow: 1px 1px 1px #00000045;;
+}   
+    .fc-row span {
+    cursor: pointer;  
+    float: right;
+    background: #f1f1f1;
+    color: #999;
+    width: 10%;
+    height: 22px;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 3px;
+    text-transform: uppercase;
+    margin: 0 5px;
+}   
+      span:hover {
+	background: #5352ed;
+	color: #fff;
+}
+    .loadmore {
+	font-size: 20px;
+	padding: 12px 20px;
+	border: 2px solid #2a5aeb;
+	color: #2a5aeb;
+	margin: 10px 0 5px 0;
+	cursor: pointer;
+	background: #fff;
+	text-align: center;
+	width: 50%;
+	outline: none;
+	border-radius: 3px;
+}
+    .loadmore:hover {
+	background: #2a5aeb;
+	color: #fff;
+}
+    @media only screen and (max-width:600px) { 
+      .fc-row input {
+    width: 80%;
+    font-size: 16px;
+
+}
+      .fc-row span {
+    width: 15%;
+    font-size: 14px;
+} 
+}
+.sticky {
+  position: fixed;
+  top: 0;
+}
+    
+.sticky + .fc-result {
+  padding-top: 60px;
+}
+    #navbar {
+  overflow: hidden;
+}
+	]]></b:skin>
+</head>
+<body>
+
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+  
+   <div class='header'>
+<div class='site-text'>
+<p class='site-title'><a href='https://www.fontchanger.net/' rel='home'>𝕱𝖔𝖓𝖙 𝕮𝖍𝖆𝖓𝖌𝖊𝖗</a></p></div></div>
+     <div class='fc-text' id='navbar'>
+      <center><textarea class='fancytext' name='text' placeholder='Type your text here...' required='required' type='text' value=''/></center>
+       </div>
+      <br/>
+      <div class='fc-result' id='result'>
+         <div class='fc-row'>
+            <input class='text-1' id='copy_0' readonly='readonly' type='text' value='𝔉𝔬𝔫𝔱 ℭ𝔥𝔞𝔫𝔤𝔢𝔯'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_0'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-2' id='copy_1' readonly='readonly' type='text' value='𝕱𝖔𝖓𝖙 𝕮𝖍𝖆𝖓𝖌𝖊𝖗'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_1'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-3' id='copy_3' readonly='readonly' type='text' value='𝓕𝓸𝓷𝓽 𝓒𝓱𝓪𝓷𝓰𝓮𝓻'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_3'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-4' id='copy_4' readonly='readonly' type='text' value='𝐹𝑜𝓃𝓉 𝒞𝒽𝒶𝓃𝑔𝑒𝓇'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_4'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-5' id='copy_5' readonly='readonly' type='text' value='𝔽𝕠𝕟𝕥 ℂ𝕙𝕒𝕟𝕘𝕖𝕣'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_5'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-6' id='copy_6' readonly='readonly' type='text' value='Ｆｏｎｔ Ｃｈａｎｇｅｒ'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_6'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-7' id='copy_8' readonly='readonly' type='text' value='ꜰᴏɴᴛ ᴄʜᴀɴɢᴇʀ'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_8'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-8' id='copy_9' readonly='readonly' type='text' value='ɹǝɓuɐɥƆ ʇuoℲ'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_9'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='form-control text-9' id='copy_13' readonly='readonly' type='text' value='ɿɘǫᴎɒʜƆ ƚᴎoꟻ'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_13'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-10' id='copy_14' readonly='readonly' type='text' value='F̵̛̼̜̝̣͓̬̙̔̆̍͜͠ő̴͉͍̱̫͓̬̣n̵͙̮̹̬̿t̸͉̫̯̬͋̃̕ ̵̧̛͍̜͗̇̀͆͌̏̒͝C̵̡̜͔̹̺͙̘͉̈́͋͂͊̅̎͑͂͐̈́ͅh̴̭̻̝͓̲̝̭̰͖̋͛ȧ̴̡̯̼́n̴̠̘̖͚̖̦͇͚̋̓̄͝͠g̷̢̡̭̰̪̋ȩ̶̠̩̗̖̍͆̍̽̄͋͐͘͜r̴͔͖̭͕̭͔͖̜͐̈́̐̇̑̔͑ͅͅ'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_14'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-11' id='copy_15' readonly='readonly' type='text' value='🅵🅾🅽🆃 🅲🅷🅰🅽🅶🅴🆁'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_15'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-12' id='copy_12' readonly='readonly' type='text' value='🄵🄾🄽🅃 🄲🄷🄰🄽🄶🄴🅁'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_12'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-13' id='copy_18' readonly='readonly' type='text' value='Ⓕⓞⓝⓣ Ⓒⓗⓐⓝⓖⓔⓡ'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_18'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-14' id='copy_16' readonly='readonly' type='text' value='Fₒₙₜ Cₕₐₙgₑᵣ'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_16'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-15' id='copy_17' readonly='readonly' type='text' value='ᶠᵒⁿᵗ ᶜʰᵃⁿᵍᵉʳ'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_17'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-16' id='copy_19' readonly='readonly' type='text' value='Ŧ๏ภՇ ςђคภﻮєг'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_19'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-17' id='copy_20' readonly='readonly' type='text' value='Fσɳƚ Cԋαɳɠҽɾ'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_20'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-18' id='copy_21' readonly='readonly' type='text' value='ʄօռȶ ƈɦǟռɢɛʀ'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_21'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-19' id='copy_22' readonly='readonly' type='text' value='ᎦᎧᏁᏖ ፈᏂᏗᏁᎶᏋᏒ'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_22'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-20' id='copy_23' readonly='readonly' type='text' value='ʄơŋɬ ƈɧąŋɠɛཞ'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_23'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-21' id='copy_24' readonly='readonly' type='text' value='f໐ຖt ¢hคຖງēr'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_24'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-22' id='copy_25' readonly='readonly' type='text' value='𝐅𝐨𝐧𝐭 𝐂𝐡𝐚𝐧𝐠𝐞𝐫'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_25'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-23' id='copy_26' readonly='readonly' type='text' value='𝗙𝗼𝗻𝘁 𝗖𝗵𝗮𝗻𝗴𝗲𝗿'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_26'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-24' id='copy_27' readonly='readonly' type='text' value='𝘍𝘰𝘯𝘵 𝘊𝘩𝘢𝘯𝘨𝘦𝘳'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_27'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-25' id='copy_28' readonly='readonly' type='text' value='𝙁𝙤𝙣𝙩 𝘾𝙝𝙖𝙣𝙜𝙚𝙧'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_28'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-26' id='copy_29' readonly='readonly' type='text' value='𝙵𝚘𝚗𝚝 𝙲𝚑𝚊𝚗𝚐𝚎𝚛'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_29'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-27' id='copy_30' readonly='readonly' type='text' value='FӨПƬ ᄃΉΛПGΣЯ'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_30'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-28' id='copy_31' readonly='readonly' type='text' value='ƒσηт ¢нαηgєя'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_31'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-29' id='copy_32' readonly='readonly' type='text' value='£ðñ† Çhåñgêr'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_32'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-30' id='copy_33' readonly='readonly' type='text' value='₣Ø₦₮ ₵Ⱨ₳₦₲ɆⱤ'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_33'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-31' id='copy_34' readonly='readonly' type='text' value='千ㄖ几ㄒ 匚卄卂几Ꮆ乇尺'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_34'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-32' id='copy_35' readonly='readonly' type='text' value='ｷの刀ｲ ᄃんﾑ刀ム乇尺'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_35'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-33' id='copy_36' readonly='readonly' type='text' value='【F】【o】【n】【t】 【C】【h】【a】【n】【g】【e】【r】'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_36'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-34' id='copy_37' readonly='readonly' type='text' value='『F』『o』『n』『t』 『C』『h』『a』『n』『g』『e』『r』'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_37'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-35' id='copy_38' readonly='readonly' type='text' value='≋F≋o≋n≋t≋ ≋C≋h≋a≋n≋g≋e≋r≋'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_38'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-36' id='copy_39' readonly='readonly' type='text' value='░F░o░n░t░ ░C░h░a░n░g░e░r░'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_39'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-37' id='copy_40' readonly='readonly' type='text' value='(っ◔◡◔)っ ♥ Font Changer ♥'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_40'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-38' id='copy_41' readonly='readonly' type='text' value='Ｆｏｎｔ　Ｃｈａｎｇｅｒ　こひブ'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_41'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-39' id='copy_42' readonly='readonly' type='text' value='Ｆｏｎｔ░Ｃｈａｎｇｅｒ　（こひブ）'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_42'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-40' id='copy_43' readonly='readonly' type='text' value='【﻿Ｆｏｎｔ　Ｃｈａｎｇｅｒ】'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_43'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-41' id='copy_44' readonly='readonly' type='text' value='˜”*°•.˜”*°• Font Changer •°*”˜.•°*”˜'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_44'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-42' id='copy_45' readonly='readonly' type='text' value='[̲̅F][̲̅o][̲̅n][̲̅t] [̲̅C][̲̅h][̲̅a][̲̅n][̲̅g][̲̅e][̲̅r]'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_45'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-43' id='copy_46' readonly='readonly' type='text' value='F҉o҉n҉t҉ ҉C҉h҉a҉n҉g҉e҉r҉'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_46'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-44' id='copy_47' readonly='readonly' type='text' value='Ƒօղէ ↻հąղցҽɾ'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_47'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-45' id='copy_48' readonly='readonly' type='text' value='ᖴOᑎT ᑕᕼᗩᑎGEᖇ'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_48'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-46' id='copy_49' readonly='readonly' type='text' value='ᖴᓍᘉᖶ ᑢᕼᗩᘉᘜᘿᖇ'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_49'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-47' id='copy_50' readonly='readonly' type='text' value='F̶o̶n̶t̶ ̶C̶h̶a̶n̶g̶e̶r̶'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_50'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-48' id='copy_51' readonly='readonly' type='text' value='F̴o̴n̴t̴ ̴C̴h̴a̴n̴g̴e̴r̴'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_51'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-49' id='copy_52' readonly='readonly' type='text' value='F̷o̷n̷t̷ ̷C̷h̷a̷n̷g̷e̷r̷'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_52'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-50' id='copy_53' readonly='readonly' type='text' value='F̲o̲n̲t̲ ̲C̲h̲a̲n̲g̲e̲r̲'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_53'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-51' id='copy_54' readonly='readonly' type='text' value='F̳o̳n̳t̳ ̳C̳h̳a̳n̳g̳e̳r̳'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_54'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-52' id='copy_55' readonly='readonly' type='text' value='F̾o̾n̾t̾ ̾C̾h̾a̾n̾g̾e̾r̾'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_55'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-53' id='copy_57' readonly='readonly' type='text' value='F͎o͎n͎t͎ ͎C͎h͎a͎n͎g͎e͎r͎'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_57'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-54' id='copy_58' readonly='readonly' type='text' value='F͓̽o͓̽n͓̽t͓̽ ͓̽C͓̽h͓̽a͓̽n͓̽g͓̽e͓̽r͓̽'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_58'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-55' id='copy_59' readonly='readonly' type='text' value='Wingdings: ☞︎□︎■︎⧫︎ 👍︎♒︎♋︎■︎♑︎♏︎❒︎'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_59'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-56' id='copy_56' readonly='readonly' type='text' value='F♥o♥n♥t♥ ♥C♥h♥a♥n♥g♥e♥r'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_56'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-57' id='copy_10' readonly='readonly' type='text' value='F⃣   o⃣   n⃣   t⃣    C⃣   h⃣   a⃣   n⃣   g⃣   e⃣   r⃣'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_10'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-58' id='copy_11' readonly='readonly' type='text' value='F⃞    o⃞    n⃞    t⃞     C⃞    h⃞    a⃞    n⃞    g⃞    e⃞    r⃞'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_11'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-59' id='copy_2' readonly='readonly' type='text' value='🐣👌  𝓕๏ＮŤ 𝒸н𝒶ｎᵍ𝔢я  👹👣'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_2'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-60' id='copy_7' readonly='readonly' type='text' value='🍬 ⋆ 🍒  🎀  𝐹♡𝓃𝓉 𝒞𝒽𝒶𝓃𝑔𝑒𝓇  🎀  🍒 ⋆ 🍬'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_7'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-61' id='copy_60' readonly='readonly' type='text' value='🐳  🎀  𝐹😍𝓃𝓉 𝒞𝒽𝒶𝓃𝑔𝑒𝓇  🎀  🐳'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_60'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-62' id='copy_61' readonly='readonly' type='text' value='🍉 ⋆ 🍫  🎀  𝐹💙𝓃𝓉 𝒞𝒽𝒶𝓃𝑔𝑒𝓇  🎀  🍫 ⋆ 🍉'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_61'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-63' id='copy_62' readonly='readonly' type='text' value='🍬  🎀  𝐹🍪𝓃𝓉 𝒞𝒽𝒶𝓃𝑔𝑒𝓇  🎀  🍬'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_62'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-64' id='copy_63' readonly='readonly' type='text' value='🐞 ⋆ 🐷  🎀  𝐹🍬𝓃𝓉 𝒞𝒽𝒶𝓃𝑔𝑒𝓇  🎀  🐷 ⋆ 🐞'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_63'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-65' id='copy_64' readonly='readonly' type='text' value='🍉 ⋆ 🍰  🎀  𝐹💞𝓃𝓉 𝒞𝒽𝒶𝓃𝑔𝑒𝓇  🎀  🍰 ⋆ 🍉'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_64'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-66' id='copy_65' readonly='readonly' type='text' value=']|I{•------» 千ᗝภⓉ 匚𝕙α𝓃𝓰€ŕ «------•}I|['/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_65'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-67' id='copy_66' readonly='readonly' type='text' value='(¯´•._.• ғό几Ť c𝔥𝔸ⓝق𝓔г •._.•´¯)'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_66'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-68' id='copy_67' readonly='readonly' type='text' value='|!¤*&apos;~``~&apos;*¤!| 𝒻𝕠ᶰ𝔱 𝔠Ĥ𝓪𝓃ᎶⒺʳ |!¤*&apos;~``~&apos;*¤!|'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_67'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-69' id='copy_68' readonly='readonly' type='text' value='😺🐜  ℱ๏𝔫𝓣 匚𝐡ａ𝓷Ꮆ𝒆ŕ  🐚🎁'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_68'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-70' id='copy_69' readonly='readonly' type='text' value='🍧🐉  𝕗ｏ𝓝𝓣 ¢Ĥ𝔞𝐍Ꮆ𝕖𝔯  😲💝'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_69'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-71' id='copy_70' readonly='readonly' type='text' value='🎃😲  Ｆㄖｎ𝐭 ｃℍ𝕒η𝔤𝔢я  💘😾'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_70'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-72' id='copy_71' readonly='readonly' type='text' value='🐜♬  𝔽𝐨𝕟𝓉 ᑕђＡｎ𝔾𝐄𝕣  🐤♥'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_71'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-73' id='copy_72' readonly='readonly' type='text' value='♖🐜  Ⓕ𝕠ｎ𝔱 Čʰ𝓪ήg𝕖г  😈🐚'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_72'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-74' id='copy_73' readonly='readonly' type='text' value='☝😎  ғ𝕆𝕟Ť ᑕℍ𝐀ⓝᎶ𝓔ⓡ  ♚🐸'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_73'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-75' id='copy_74' readonly='readonly' type='text' value='♪🐠  Ƒㄖ几丅 𝒸ђαⓝｇ𝔼𝐑  👤🍫'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_74'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-76' id='copy_75' readonly='readonly' type='text' value='¸„.-•~¹°”ˆ˜¨ Ŧ๏𝐍т 𝕔𝔥𝕒ภᎶẸ𝓡 ¨˜ˆ”°¹~•-.„¸'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_75'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-77' id='copy_76' readonly='readonly' type='text' value='😺♖  𝓕𝑜ℕt 𝓒卄𝓪ⓝģεＲ  ♝♤'/>
+            <span class='input-group-text copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_76' style='cursor:pointer;'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-78' id='copy_77' readonly='readonly' type='text' value='░▒▓█ ℱㄖⓃᵗ ＣнⓐⓝⒼᵉ𝓡 █▓▒░'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_77'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-79' id='copy_78' readonly='readonly' type='text' value='♔♨  𝒇𝓸ᶰ𝐓 𝓒𝔥𝐀ⓃＧέŘ  🌷🍫'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_78'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-80' id='copy_79' readonly='readonly' type='text' value='☟♠  ғ𝕠ᶰ𝓽 𝒸Ĥ卂ή𝐠ｅⓡ  🍬👹'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_79'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='form-control text-81' id='copy_80' readonly='readonly' type='text' value='♠🍟  ғσ𝔫т ςнΔ几Ｇ€Ⓡ  ♣🐼'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_80'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-82' id='copy_81' readonly='readonly' type='text' value='🐨ඏ  ｆⓄ𝓝т Ć𝒽Ａη𝑔𝐄Ⓡ  🍓♚'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_81'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-83' id='copy_82' readonly='readonly' type='text' value='☞😡  𝐅Ø𝐍𝐭 ᑕ𝔥𝓐Ň𝑔єʳ  💚♗'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_82'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-84' id='copy_83' readonly='readonly' type='text' value='♪☺  𝓕𝑜𝓝𝔱 ¢𝕙卂𝐍𝐆𝑒Ř  😈💝'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_83'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-85' id='copy_84' readonly='readonly' type='text' value='🍮☆  𝐟𝑜ηⓉ ℃ħ𝓪𝕟Ꮆ𝐄𝐑  🐟👑'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_84'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-86' id='copy_85' readonly='readonly' type='text' value='💋😳  千𝕠ήt ℃ⓗ𝐀𝓃Ğ𝐄Ｒ  ♣♔'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_85'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-87' id='copy_86' readonly='readonly' type='text' value='✧✩  🎀  𝐹❀𝓃𝓉 𝒞𝒽𝒶𝓃𝑔𝑒𝓇  🎀  ✩✧'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_86'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-88' id='copy_87' readonly='readonly' type='text' value='•]••´º´•»   🎀  𝐹🍩𝓃𝓉 𝒞𝒽𝒶𝓃𝑔𝑒𝓇  🎀   »•´º´••]•'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_87'>Copy</span></div>
+         <div class='fc-row'>
+            <input class='text-89' id='copy_88' readonly='readonly' type='text' value='🐁 ⋆ 🐖  🎀  𝐹♡𝓃𝓉 𝒞𝒽𝒶𝓃𝑔𝑒𝓇  🎀  🐖 ⋆ 🐁'/>
+            <span class='copybutton' data-clipboard-action='copy' data-clipboard-target='#copy_88'>Copy</span></div>
+      </div>
+       <center>  <button class='loadmore'>Load More</button></center>
+      <hr/>
+   
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'/>
+    <script src='https://codes-lab.github.io/fcgen.js'/>
+    <script src='https://codes-lab.github.io/fcloader.js'/>
+    <script>
+      window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById(&quot;navbar&quot;);
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset &gt;= sticky) {
+    navbar.classList.add(&quot;sticky&quot;)
+  } else {
+    navbar.classList.remove(&quot;sticky&quot;);
+  }
+}
+  </script> 
+    <script>  
+      // <![CDATA[     
+!function(t,e){"object"==typeof exports&&"object"==typeof module?module.exports=e():"function"==typeof define&&define.amd?define([],e):"object"==typeof exports?exports.ClipboardJS=e():t.ClipboardJS=e()}(this,function(){return function(t){function e(o){if(n[o])return n[o].exports;var r=n[o]={i:o,l:!1,exports:{}};return t[o].call(r.exports,r,r.exports,e),r.l=!0,r.exports}var n={};return e.m=t,e.c=n,e.i=function(t){return t},e.d=function(t,n,o){e.o(t,n)||Object.defineProperty(t,n,{configurable:!1,enumerable:!0,get:o})},e.n=function(t){var n=t&&t.__esModule?function(){return t.default}:function(){return t};return e.d(n,"a",n),n},e.o=function(t,e){return Object.prototype.hasOwnProperty.call(t,e)},e.p="",e(e.s=3)}([function(t,e,n){var o,r,i;!function(a,c){r=[t,n(7)],o=c,void 0!==(i="function"==typeof o?o.apply(e,r):o)&&(t.exports=i)}(0,function(t,e){"use strict";function n(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}var o=function(t){return t&&t.__esModule?t:{default:t}}(e),r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t},i=function(){function t(t,e){for(var n=0;n<e.length;n++){var o=e[n];o.enumerable=o.enumerable||!1,o.configurable=!0,"value"in o&&(o.writable=!0),Object.defineProperty(t,o.key,o)}}return function(e,n,o){return n&&t(e.prototype,n),o&&t(e,o),e}}(),a=function(){function t(e){n(this,t),this.resolveOptions(e),this.initSelection()}return i(t,[{key:"resolveOptions",value:function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};this.action=t.action,this.container=t.container,this.emitter=t.emitter,this.target=t.target,this.text=t.text,this.trigger=t.trigger,this.selectedText=""}},{key:"initSelection",value:function(){this.text?this.selectFake():this.target&&this.selectTarget()}},{key:"selectFake",value:function(){var t=this,e="rtl"==document.documentElement.getAttribute("dir");this.removeFake(),this.fakeHandlerCallback=function(){return t.removeFake()},this.fakeHandler=this.container.addEventListener("click",this.fakeHandlerCallback)||!0,this.fakeElem=document.createElement("textarea"),this.fakeElem.style.fontSize="12pt",this.fakeElem.style.border="0",this.fakeElem.style.padding="0",this.fakeElem.style.margin="0",this.fakeElem.style.position="absolute",this.fakeElem.style[e?"right":"left"]="-9999px";var n=window.pageYOffset||document.documentElement.scrollTop;this.fakeElem.style.top=n+"px",this.fakeElem.setAttribute("readonly",""),this.fakeElem.value=this.text,this.container.appendChild(this.fakeElem),this.selectedText=(0,o.default)(this.fakeElem),this.copyText()}},{key:"removeFake",value:function(){this.fakeHandler&&(this.container.removeEventListener("click",this.fakeHandlerCallback),this.fakeHandler=null,this.fakeHandlerCallback=null),this.fakeElem&&(this.container.removeChild(this.fakeElem),this.fakeElem=null)}},{key:"selectTarget",value:function(){this.selectedText=(0,o.default)(this.target),this.copyText()}},{key:"copyText",value:function(){var t=void 0;try{t=document.execCommand(this.action)}catch(e){t=!1}this.handleResult(t)}},{key:"handleResult",value:function(t){this.emitter.emit(t?"success":"error",{action:this.action,text:this.selectedText,trigger:this.trigger,clearSelection:this.clearSelection.bind(this)})}},{key:"clearSelection",value:function(){this.trigger&&this.trigger.focus(),window.getSelection().removeAllRanges()}},{key:"destroy",value:function(){this.removeFake()}},{key:"action",set:function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"copy";if(this._action=t,"copy"!==this._action&&"cut"!==this._action)throw new Error('Invalid "action" value, use either "copy" or "cut"')},get:function(){return this._action}},{key:"target",set:function(t){if(void 0!==t){if(!t||"object"!==(void 0===t?"undefined":r(t))||1!==t.nodeType)throw new Error('Invalid "target" value, use a valid Element');if("copy"===this.action&&t.hasAttribute("disabled"))throw new Error('Invalid "target" attribute. Please use "readonly" instead of "disabled" attribute');if("cut"===this.action&&(t.hasAttribute("readonly")||t.hasAttribute("disabled")))throw new Error('Invalid "target" attribute. You can\'t cut text from elements with "readonly" or "disabled" attributes');this._target=t}},get:function(){return this._target}}]),t}();t.exports=a})},function(t,e,n){function o(t,e,n){if(!t&&!e&&!n)throw new Error("Missing required arguments");if(!c.string(e))throw new TypeError("Second argument must be a String");if(!c.fn(n))throw new TypeError("Third argument must be a Function");if(c.node(t))return r(t,e,n);if(c.nodeList(t))return i(t,e,n);if(c.string(t))return a(t,e,n);throw new TypeError("First argument must be a String, HTMLElement, HTMLCollection, or NodeList")}function r(t,e,n){return t.addEventListener(e,n),{destroy:function(){t.removeEventListener(e,n)}}}function i(t,e,n){return Array.prototype.forEach.call(t,function(t){t.addEventListener(e,n)}),{destroy:function(){Array.prototype.forEach.call(t,function(t){t.removeEventListener(e,n)})}}}function a(t,e,n){return u(document.body,t,e,n)}var c=n(6),u=n(5);t.exports=o},function(t,e){function n(){}n.prototype={on:function(t,e,n){var o=this.e||(this.e={});return(o[t]||(o[t]=[])).push({fn:e,ctx:n}),this},once:function(t,e,n){function o(){r.off(t,o),e.apply(n,arguments)}var r=this;return o._=e,this.on(t,o,n)},emit:function(t){var e=[].slice.call(arguments,1),n=((this.e||(this.e={}))[t]||[]).slice(),o=0,r=n.length;for(o;o<r;o++)n[o].fn.apply(n[o].ctx,e);return this},off:function(t,e){var n=this.e||(this.e={}),o=n[t],r=[];if(o&&e)for(var i=0,a=o.length;i<a;i++)o[i].fn!==e&&o[i].fn._!==e&&r.push(o[i]);return r.length?n[t]=r:delete n[t],this}},t.exports=n},function(t,e,n){var o,r,i;!function(a,c){r=[t,n(0),n(2),n(1)],o=c,void 0!==(i="function"==typeof o?o.apply(e,r):o)&&(t.exports=i)}(0,function(t,e,n,o){"use strict";function r(t){return t&&t.__esModule?t:{default:t}}function i(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}function a(t,e){if(!t)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return!e||"object"!=typeof e&&"function"!=typeof e?t:e}function c(t,e){if("function"!=typeof e&&null!==e)throw new TypeError("Super expression must either be null or a function, not "+typeof e);t.prototype=Object.create(e&&e.prototype,{constructor:{value:t,enumerable:!1,writable:!0,configurable:!0}}),e&&(Object.setPrototypeOf?Object.setPrototypeOf(t,e):t.__proto__=e)}function u(t,e){var n="data-clipboard-"+t;if(e.hasAttribute(n))return e.getAttribute(n)}var l=r(e),s=r(n),f=r(o),d="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t},h=function(){function t(t,e){for(var n=0;n<e.length;n++){var o=e[n];o.enumerable=o.enumerable||!1,o.configurable=!0,"value"in o&&(o.writable=!0),Object.defineProperty(t,o.key,o)}}return function(e,n,o){return n&&t(e.prototype,n),o&&t(e,o),e}}(),p=function(t){function e(t,n){i(this,e);var o=a(this,(e.__proto__||Object.getPrototypeOf(e)).call(this));return o.resolveOptions(n),o.listenClick(t),o}return c(e,t),h(e,[{key:"resolveOptions",value:function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};this.action="function"==typeof t.action?t.action:this.defaultAction,this.target="function"==typeof t.target?t.target:this.defaultTarget,this.text="function"==typeof t.text?t.text:this.defaultText,this.container="object"===d(t.container)?t.container:document.body}},{key:"listenClick",value:function(t){var e=this;this.listener=(0,f.default)(t,"click",function(t){return e.onClick(t)})}},{key:"onClick",value:function(t){var e=t.delegateTarget||t.currentTarget;this.clipboardAction&&(this.clipboardAction=null),this.clipboardAction=new l.default({action:this.action(e),target:this.target(e),text:this.text(e),container:this.container,trigger:e,emitter:this})}},{key:"defaultAction",value:function(t){return u("action",t)}},{key:"defaultTarget",value:function(t){var e=u("target",t);if(e)return document.querySelector(e)}},{key:"defaultText",value:function(t){return u("text",t)}},{key:"destroy",value:function(){this.listener.destroy(),this.clipboardAction&&(this.clipboardAction.destroy(),this.clipboardAction=null)}}],[{key:"isSupported",value:function(){var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:["copy","cut"],e="string"==typeof t?[t]:t,n=!!document.queryCommandSupported;return e.forEach(function(t){n=n&&!!document.queryCommandSupported(t)}),n}}]),e}(s.default);t.exports=p})},function(t,e){function n(t,e){for(;t&&t.nodeType!==o;){if("function"==typeof t.matches&&t.matches(e))return t;t=t.parentNode}}var o=9;if("undefined"!=typeof Element&&!Element.prototype.matches){var r=Element.prototype;r.matches=r.matchesSelector||r.mozMatchesSelector||r.msMatchesSelector||r.oMatchesSelector||r.webkitMatchesSelector}t.exports=n},function(t,e,n){function o(t,e,n,o,r){var a=i.apply(this,arguments);return t.addEventListener(n,a,r),{destroy:function(){t.removeEventListener(n,a,r)}}}function r(t,e,n,r,i){return"function"==typeof t.addEventListener?o.apply(null,arguments):"function"==typeof n?o.bind(null,document).apply(null,arguments):("string"==typeof t&&(t=document.querySelectorAll(t)),Array.prototype.map.call(t,function(t){return o(t,e,n,r,i)}))}function i(t,e,n,o){return function(n){n.delegateTarget=a(n.target,e),n.delegateTarget&&o.call(t,n)}}var a=n(4);t.exports=r},function(t,e){e.node=function(t){return void 0!==t&&t instanceof HTMLElement&&1===t.nodeType},e.nodeList=function(t){var n=Object.prototype.toString.call(t);return void 0!==t&&("[object NodeList]"===n||"[object HTMLCollection]"===n)&&"length"in t&&(0===t.length||e.node(t[0]))},e.string=function(t){return"string"==typeof t||t instanceof String},e.fn=function(t){return"[object Function]"===Object.prototype.toString.call(t)}},function(t,e){function n(t){var e;if("SELECT"===t.nodeName)t.focus(),e=t.value;else if("INPUT"===t.nodeName||"TEXTAREA"===t.nodeName){var n=t.hasAttribute("readonly");n||t.setAttribute("readonly",""),t.select(),t.setSelectionRange(0,t.value.length),n||t.removeAttribute("readonly"),e=t.value}else{t.hasAttribute("contenteditable")&&t.focus();var o=window.getSelection(),r=document.createRange();r.selectNodeContents(t),o.removeAllRanges(),o.addRange(r),e=o.toString()}return e}t.exports=n}])});
+// ]]>
+      </script>
+   <script> 
+  $(function(){
+var intv = setInterval(function(){ $(&quot;.copybutton&quot;).html(&#39;Copy&#39;); }, 2000);
+  $(&quot;body&quot;).on(&#39;click&#39;,&quot;.copybutton&quot;,function() { 
+$(&quot;.copybutton&quot;).html(&#39;Copy&#39;);
+$(this).html(&#39;Copied&#39;); 
+clearInterval(intv);
+});
+});
+
+    var clipboard = new ClipboardJS(&#39;.copybutton&#39;);
+    clipboard.on(&#39;success&#39;, function(e) {
+        //console.log(e);
+    });
+    clipboard.on(&#39;error&#39;, function(e) {
+        //console.log(e);
+    });
+     </script>  
+  
+  
+</b:if>
+
+<b:if cond='data:blog.url == &quot;https://www.fontchanger.net/p/privacy-policy.html&quot;'>
+  <div style='text-align: center;'>
+<b>Privacy Policy for Font Changer</b>
+</div>
+</b:if>
+
+<b:if cond='data:blog.url == &quot;contact.com&quot;'>
+</b:if>
+
+    <b:section class='main' id='main' maxwidgets='1' showaddelement='no'/>
+ 
+</body>
+  
+</html>
