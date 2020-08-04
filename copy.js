@@ -1,10 +1,4 @@
-    /*!
-     * clipboard.js v2.0.0
-     * https://zenorocha.github.io/clipboard.js
-     * 
-     * Licensed MIT Ã‚Â© Zeno Rocha
-     */
-    ! function(t, e) {
+     function(t, e) {
         "object" == typeof exports && "object" == typeof module ? module.exports = e() : "function" == typeof define && define.amd ? define([], e) : "object" == typeof exports ? exports.ClipboardJS = e() : t.ClipboardJS = e()
     }(this, function() {
         return function(t) {
