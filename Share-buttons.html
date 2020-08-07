@@ -1,0 +1,54 @@
+
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+.fa {
+ padding: 20px;
+ font-size: 30px;
+ width: 50px;
+ text-align: center;
+ text-decoration: none;
+ margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-whatsapp {
+  background: #3B5998;
+  color: white;
+}
+</style>
+
+<body>
+
+<div>
+<a href="http://www.facebook.com/sharer.php?u=https://www.fontchanger.net" onclick="clickCounter()" class="fa fa-facebook"></a>
+<a href="https://twitter.com/share?url=https://www.fontchanger.net&amp;text=Fancy%20SFont%20Changer&amp;hashtags=FancyText" onclick="clickCounter()" class="fa fa-twitter"></a>
+<a href="#" onclick="clickCounter()" class="fa fa-whatsapp"></a>
+</div>
+<div id="counter"></div>
+
+<script>
+function clickCounter() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.clickcount) {
+      localStorage.clickcount = Number(localStorage.clickcount)+1;
+    } else {
+      localStorage.clickcount = 1;
+    }
+    document.getElementById("counter").innerHTML = localStorage.clickcount + " Shares";
+  } 
+}
+</script>
+</body>
+</html>
