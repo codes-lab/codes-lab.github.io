@@ -22,7 +22,7 @@ function generateFancy(txt) {
         $.each(finalRes,function(inx, vl) { 
             $("#copy_"+inx).val(vl);
             
-          fancyText  +=  '<div class="fc-row"><input type="text" class="text-'+sn+'" value="'+vl+'" id="copy_'+inx+'" readonly="readonly"><span class="input-group-text copybutton" data-clipboard-action="copy" data-clipboard-target="#copy_'+inx+'">Copy</span></div>';
+          fancyText  +=  '<div class="fc-row"><input type="text" class="text-'+sn+'" value="'+vl+'" id="copy_'+inx+'" readonly="readonly"><span class="copybutton" data-clipboard-action="copy" data-clipboard-target="#copy_'+inx+'">Copy</span></div>';
           sn++;
         });
         
